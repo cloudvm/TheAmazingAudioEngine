@@ -275,7 +275,7 @@ static void performLevelMonitoring(audio_level_monitor_t* monitor, AudioBufferLi
 @property (nonatomic, retain, readwrite) NSString *audioRoute;
 @property (nonatomic, assign, readwrite) float currentBufferDuration;
 @property (nonatomic, retain) NSError *lastError;
-@property (nonatomic, assign) NSTimer *housekeepingTimer;
+@property (nonatomic, retain) NSTimer *housekeepingTimer;
 @property (nonatomic, retain) ABInputPort *audiobusInputPort;
 @property (nonatomic, retain) ABOutputPort *audiobusOutputPort;
 @end
